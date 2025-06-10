@@ -7,44 +7,33 @@
 }
 
 window#waybar {
-    background: #1d1f21;
-    color: white;
+    background: #1c1b19;
+    color: #baa67f;
 }
 
 tooltip {
-  background: #1d1f21;
-  border: 1px solid #327bd1;
+  background: #1c1b19;
+  border: 1px solid #2c78bf;
 }
 
 tooltip label {
-  color: white;
+  color: #baa67f;
 }
 
 #workspaces button {
     padding: 0 5px;
-    background: #1d1f21;
-    color: white;
+    background: #1c1b19;
+    color: #baa67f;
 }
 
-#workspaces button.focused {
-    background: #333333;
-    border-bottom: 2px solid #327bd1;
-}
-
+#workspaces button.focused,
 #workspaces button.active {
-    background: #333333;
-    border-bottom: 2px solid #327bd1;
+    background: #2c78bf;
+    border-bottom: 2px solid #68a8e4;
 }
 
-#pulseaudio {
-	padding-right: 10px
-}
-
-#clock {
-	padding-right: 10px
-}
-
+#pulseaudio,
+#clock,
 #tray {
 	padding-right: 10px
 }
-
